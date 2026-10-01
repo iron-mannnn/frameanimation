@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="relative h-screen w-full max-w-full font-anton flex justify-center select-none overflow-hidden">
+    <section className="relative min-h-[100dvh] w-full max-w-full font-anton flex justify-center select-none overflow-hidden">
 
       {/* ========================================================= */}
       {/* NAME SECTION                                              */}
@@ -51,6 +51,7 @@ const Hero = () => {
             PARVEZ
           </div>
         </motion.div>
+
       </div>
 
 
@@ -152,7 +153,6 @@ const Hero = () => {
         >
           FRONTEND <br />
           BACKEND <br />
-
           <span className="text-orange">
             EVERYTHING
           </span>
@@ -193,7 +193,6 @@ const Hero = () => {
         >
           OPEN <br />
           TO <br />
-
           <span className="text-orange">
             WORK
           </span>
@@ -220,7 +219,7 @@ const Hero = () => {
           duration: 0.6,
         }}
       >
-        Based in <br />
+        Based inn <br />
 
         <span className="underline md:decoration-2 md:decoration-orange">
           Hyderabad
@@ -268,7 +267,11 @@ const Hero = () => {
 
         <br />
 
-        The <span  className="underline md:decoration-orange md:decoration-2">Story</span> Continues
+        The{" "}
+        <span className="underline md:decoration-orange md:decoration-2">
+          Story
+        </span>{" "}
+        Continues
       </motion.div>
 
     </section>
