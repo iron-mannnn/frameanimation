@@ -1,0 +1,49 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-anton: "Anton", sans-serif;
+
+  /* Base colors */
+  --color-background: #030405;
+  --color-foreground: #fdf9f4;
+
+  /* Light section */
+  --color-light: #fdf9f4;
+  --color-light-foreground: #030405;
+
+  /* Text */
+  --color-white: #fdf9f4;
+  --color-black: #030405;
+  --color-muted: #777777;
+
+  /* Brand orange */
+  --color-orange: #f0440f;
+  --color-orange-bright: #ff4a00;
+
+  /* Dark shades */
+  --color-dark: #030405;
+  --color-dark-secondary: #0b0c0e;
+
+  /* Borders */
+  --color-border: #777777;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #030405;
+  color: #fdf9f4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
